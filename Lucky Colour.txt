@@ -1,0 +1,15 @@
+import random
+
+colors = {
+    "Blue": "Brings peace and clarity today.",
+    "Red": "Gives you energy and confidence.",
+    "Yellow": "Boosts creativity and positivity.",
+    "Green": "Helps you stay calm and grow.",
+    "Purple": "Enhances your imagination.",
+    "Orange": "Fills your day with enthusiasm."
+}
+
+chosen = random.choice(list(colors.keys()))
+
+print("Today's lucky colour is:", chosen)
+print("Meaning:", colors[chosen])
